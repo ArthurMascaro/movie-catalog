@@ -1,4 +1,5 @@
-import { NavbarItem } from "./NavbarItem";
+import { NavbarItem } from "./Children/NavbarItem";
+import './navbar.css';
 
 const links = [
   { to: '/',       label: 'Início'    },
@@ -8,9 +9,9 @@ const links = [
 ];
 
 export default function Navbar() {
-  return (
-    <nav className="fixed top-0 inset-x-0 bg-gray-100 p-4 shadow z-10">
-      <div className="max-w-4xl mx-auto flex justify-center gap-4">
+    return (
+    <nav className="w-full mt-2">
+      <div className="flex justify-center space-x-3">
         {links.map((link) => (
           <NavbarItem key={link.to} {...link} />
         ))}

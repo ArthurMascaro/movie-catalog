@@ -1,5 +1,5 @@
 import { useState, type FormEvent } from 'react';
-import type { Movie } from '../types/Movie';
+import type { Movie } from '../../types/Movie';
 import { useNavigate } from 'react-router-dom';
 
 interface MovieFormProps {
@@ -59,13 +59,13 @@ export const MovieForm = ({
         <button
           type="button"
           onClick={() => navigate('/')}
-          className="px-4 py-2 border rounded hover:bg-gray-100"
+          className="px-4 py-2 border rounded hover:bg-gray-700 cursor-pointer"
         >
           Cancelar
         </button>
         <button
           type="submit"
-          className="px-4 py-2 bg-blue-600 text-white rounded"
+          className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded cursor-pointer select-none"
         >
           {submitLabel}
         </button>
