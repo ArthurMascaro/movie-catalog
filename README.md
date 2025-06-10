@@ -8,7 +8,7 @@ Este é o meu primeiro projeto desenvolvido com **React** utilizando **Vite** co
 - [Vite](https://vitejs.dev/)
 - [Axios](https://axios-http.com/)
 - [MockAPI](https://mockapi.io/)
-- CSS Modules / Tailwind / (adicione aqui se usou alguma estilização)
+- CSS Modules / Tailwind
 
 ## 📦 Funcionalidades
 
